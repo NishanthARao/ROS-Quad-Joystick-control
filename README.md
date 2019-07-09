@@ -7,6 +7,9 @@ The values in the slider file can be changed dynamically, so that the PID values
 
 Here is the YouTube link: https://www.youtube.com/watch?v=csJLEBhIRu4
 
+![Image](https://github.com/NishanthARao/ROS-Quad-Joystick-control/blob/master/Screenshot.png)
+
+
 # Installation
 
 1) **SETUP the Joystick.**
