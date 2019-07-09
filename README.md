@@ -14,12 +14,11 @@ http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
 
 2) **Install the rqt-ez-publisher package for the slider GUI**
 
-The rqt-ez-publisher originally wasn't released for the melodic distro. However, after some requests, OTL has released a version for melodic. (The package may not run perfectly, please posts your queries by opening new issues here: https://github.com/OTL/rqt_ez_publisher/issues). Follow the command to install it:
+The rqt-ez-publisher originally wasn't released for the melodic distro. However, after some requests, OTL has released a version for melodic. (The package may not run perfectly, so please post your queries by opening new issues here: https://github.com/OTL/rqt_ez_publisher/issues). Follow the command to install it:
 ```
 sudo apt-get install ros-melodic-rqt-ez-publisher
 ```
-
-Here is what you need to do. I have assumed that your workspace name is "catkin_ws". Please change it according to your workspace. 
+The above method should work. In case it doesn't work (chances are less likely), and give you errors, uninstall and restart. After that, here is what you need to do. I have assumed that your workspace name is "catkin_ws". Please change it according to the name your workspace. 
 ```
 cd ~/catkin_ws/src
 git clone -b melodic-devel https://github.com/OTL/rqt_ez_publisher
