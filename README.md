@@ -19,7 +19,7 @@ The rqt-ez-publisher originally wasn't released for the melodic distro. However,
 sudo apt-get install ros-melodic-rqt-ez-publisher
 ```
 
-If this doesn't work, you may have to follow the instructions on this page: https://answers.ros.org/question/240235/how-to-install-packages-from-github/. Make sure that the branch is set to melodic-devel. Here is what you need to do. I have assumed that your workspace name is "catkin_ws". Please change it according to your workspace.
+Here is what you need to do. I have assumed that your workspace name is "catkin_ws". Please change it according to your workspace. 
 ```
 cd ~/catkin_ws/src
 git clone -b melodic-devel https://github.com/OTL/rqt_ez_publisher
@@ -30,6 +30,8 @@ cd ~/catkin_ws
 catkin_make
 ```
 You must not face any issues in the above steps. If you get any errors, recheck with the above instructions.
+
+If this doesn't work, you may have to follow the instructions on this page: https://answers.ros.org/question/240235/how-to-install-packages-from-github/. Make sure that the branch in the github page of rqt-ez-publisher (https://github.com/OTL/rqt_ez_publisher) is set to melodic-devel. 
 
 3) **Download all files and launch gazebo simulator**
 
