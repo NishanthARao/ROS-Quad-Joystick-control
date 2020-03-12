@@ -12,6 +12,15 @@ Here is the YouTube link: https://www.youtube.com/watch?v=csJLEBhIRu4
 
 # Installation
 
+Make sure you have installed ROS, GAZEBO and their dependencies.
+Additionally, you have to install the following packages:
+```
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 
+sudo apt-get update
+sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control ros-melodic-ros-control ros-melodic-ros-controllers
+sudo apt-get install ros-melodic-joint-state-controller ros-melodic-effort-controllers ros-melodic-position-controllers
+```
+
 1) **SETUP the Joystick.**
 
 You need a linux-compatible joystick with ROS packages installed. Make sure to follow the tutorials to set up the Joystick from the official ROS documentation:
