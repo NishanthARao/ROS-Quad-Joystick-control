@@ -67,7 +67,14 @@ catkin_make
 
 This should build the directory without any errors. If you find any errors, please check your steps with those mentioned here.
 
-Once installed, close the terminal. Open another terminal and load the quadcopter into gazebo simulator
+Now, create executables of the python programs present in the src directory
+```
+cd ~/catkin_ws/src/fly_bot/src
+chmod u+x control.py
+chmod u+x pid.py
+```
+
+After this, close the terminal. Open another terminal and load the quadcopter into gazebo simulator
 ```
 roslaunch fly_bot Kwad_gazebo.launch
 ```
