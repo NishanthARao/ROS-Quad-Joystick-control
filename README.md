@@ -98,3 +98,7 @@ Ki - 0.02
 Kd - 98
 
 These may not work for you, as initialisation of the quadcopter's parameters in gazebo is random.
+
+4) **TROUBLESHOOTING**
+
+Q1) The quadcopter takes off but no matter what pid gains i give from the slider program, the quadcopter still crashes.
